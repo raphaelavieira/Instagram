@@ -64,18 +64,6 @@ body {
   height: 3rem;
 }
 
-.profile-photo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.profile-photo img {
-    height: 6rem;
-}
-
 .instagram-login {
   background-color: #0095f6;
   color: #ffffff;
@@ -153,4 +141,16 @@ body {
     .group {
       border: 1px solid transparent;
     }
+}
+
+.campo{
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid 1px #CCC;
+  border-radius: 2px;
+  font-family: Arial;
+  margin-top: 3px; 
 }
